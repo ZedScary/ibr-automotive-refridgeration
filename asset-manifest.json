@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ibr-renovators/static/css/main.d4908343.css",
+    "main.js": "/ibr-renovators/static/js/main.ea4b7886.js",
+    "static/js/453.56090391.chunk.js": "/ibr-renovators/static/js/453.56090391.chunk.js",
+    "static/media/IMG-20241026-WA0006.jpg": "/ibr-renovators/static/media/IMG-20241026-WA0006.98e060058cd6a0b70068.jpg",
+    "static/media/IMG-20241026-WA0007.jpg": "/ibr-renovators/static/media/IMG-20241026-WA0007.c88f90419679fb92f794.jpg",
+    "static/media/IMG-20241026-WA0005.jpg": "/ibr-renovators/static/media/IMG-20241026-WA0005.b67ac890c859a2f56f2d.jpg",
+    "static/media/IMG-20241026-WA0004.jpg": "/ibr-renovators/static/media/IMG-20241026-WA0004.51000b6898f18a2652a9.jpg",
+    "static/media/background.webp": "/ibr-renovators/static/media/background.2f0d65ea57a72adc6a96.webp",
+    "static/media/Aircon.webp": "/ibr-renovators/static/media/Aircon.3ba9bfcd8951c767dde9.webp",
+    "static/media/MACS-Auto-web-compressors-600x299.jpg": "/ibr-renovators/static/media/MACS-Auto-web-compressors-600x299.57fe1c4cd34f3d95ba90.jpg",
+    "index.html": "/ibr-renovators/index.html",
+    "main.d4908343.css.map": "/ibr-renovators/static/css/main.d4908343.css.map",
+    "main.ea4b7886.js.map": "/ibr-renovators/static/js/main.ea4b7886.js.map",
+    "453.56090391.chunk.js.map": "/ibr-renovators/static/js/453.56090391.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4908343.css",
+    "static/js/main.ea4b7886.js"
+  ]
+}
