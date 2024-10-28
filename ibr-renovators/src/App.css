@@ -1,0 +1,166 @@
+.App {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.5);
+  color: #cadace;
+}
+
+.App-header {
+  color: #cadace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 1px solid;
+}
+
+.App-header h1{
+  margin: 0;
+}
+
+.Header-buttons{
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.App-header a{
+  background-color: #cadace;
+  vertical-align: middle;
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #292c2e;
+  transition: background-color 0.2s ease, border, color 0.3s ease, padding 0.3s ease;
+}
+
+.App-header a:hover {
+  background-color: transparent;
+  border: 2px solid;
+  color: #cadace;
+  padding: 12px;
+}
+
+.App-header span{
+  font-size: 1.1em;
+}
+
+.About-us{
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid;
+}
+
+.About-us h1{
+  margin-top: 0;
+}
+
+.Contact-details{
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid;
+}
+
+.Contact-details h1{
+  margin-top: 0;
+}
+
+.Services{
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.Services h1{
+  margin-top: 0;
+}
+
+.Images{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.Repair, .Supply, .Field-repair{
+  color: #cadace;
+  text-align: center;
+  height: 40vh;
+  width: 33%;
+  margin: 10px;
+  border-radius: 20px;
+  transition: width 0.3s ease, font-size 0.3s ease;
+  line-height: 2.5em;
+  text-decoration: none;
+}
+
+.Repair:hover, .Supply:hover, .Field-repair:hover{
+  width: 60%;
+  font-size: 1.5em;
+}
+
+.Repair{
+  background-image: url('images/Aircon.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Supply{
+  background-image: url('images/Compressor.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Field-repair{
+  background-image: url('images/Excavator.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Images span {
+  background-color: rgba(0,0,0,0.6);
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 540px) {
+  .Header-buttons span{
+    display: none;
+  }
+
+  .Header-buttons a{
+    font-size: 2em;
+    background-color: transparent;
+    color: #cadace;
+    padding: 12px;
+  }
+
+  .Header-buttons a:hover{
+    background-color: transparent;
+  border: 0px;
+  color: #cadace;
+  padding: 12px;
+  }
+}
+
+@media (max-width: 410px) {
+  .App-header{
+    font-size: 0.8em;
+  }
+
+  .About-us{
+    font-size: 20px;
+  }
+
+  .Contact-details{
+    font-size: 20px;
+  }
+}
