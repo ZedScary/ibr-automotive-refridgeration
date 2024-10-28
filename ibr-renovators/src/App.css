@@ -233,4 +233,27 @@
     width: 30vh;
     height: 30vh;
   }
+
+  .Contact-details{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Experience {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Services{
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .About-us{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
