@@ -11,11 +11,13 @@ function App() {
 
   const handleContactClick = (event) => {
     event.preventDefault();
+    window.scrollTo(0, 0);
     setShowContact(true);
   };
 
   const handleAboutUsClick = (event) => {
     event.preventDefault();
+    window.scrollTo(0, 0);
     setShowContact(false);
   };
 
