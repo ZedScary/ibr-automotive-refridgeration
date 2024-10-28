@@ -16,6 +16,7 @@
 
 .App-header h1{
   margin: 0;
+  cursor: pointer;
 }
 
 .Header-buttons{
@@ -68,6 +69,57 @@
   margin-top: 0;
 }
 
+.Experience {
+  font-size: 25px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid;
+}
+
+.Experience h1{
+  margin-top: 0;
+}
+
+.Exp-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.Exp-img div{
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.photo1 {
+  background-image: url(images/IMG-20241026-WA0004.jpg);
+  width: 40vh;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.photo2 {
+  background-image: url(images/IMG-20241026-WA0005.jpg);
+  width: 40vh;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.photo3 {
+  background-image: url(images/IMG-20241026-WA0006.jpg);
+  width: 40vh;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.photo4 {
+  background-image: url(images/IMG-20241026-WA0007.jpg);
+  width: 40vh;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .Services{
   font-size: 25px;
   padding-top: 30px;
@@ -89,7 +141,7 @@
   color: #cadace;
   text-align: center;
   height: 40vh;
-  width: 33%;
+  width: 50%;
   margin: 10px;
   border-radius: 20px;
   transition: width 0.3s ease, font-size 0.3s ease;
@@ -109,14 +161,7 @@
 }
 
 .Supply{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('images/Compressor.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.Field-repair{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('images/Excavator.webp');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('images/MACS-Auto-web-compressors-600x299.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,6 +183,11 @@
     height: 20vh;
     width: 95%;
   }
+
+  .Exp-img {
+    flex-direction: column;
+  }
+  
 }
 
 @media (max-width: 540px) {
@@ -175,5 +225,12 @@
 
   .Images span{
     font-size: 20px;
+  }
+
+  .Exp-img div{
+    margin: 10px;
+    margin-bottom: 30px;
+    width: 30vh;
+    height: 30vh;
   }
 }
