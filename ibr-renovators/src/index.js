@@ -5,13 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Set the document title
+document.title = "IBR Automotive Refrigeration";
+
+// Create and set the favicon
+const link = document.createElement('link');
+link.rel = 'icon';
+link.href = `${process.env.PUBLIC_URL}/images/Excavator.webp`; // assuming images are in public/images
+document.head.appendChild(link);
+
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
