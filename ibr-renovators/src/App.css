@@ -1,7 +1,6 @@
 .App {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 100vh;
-  background-color: rgba(0,0,0,0.5);
   color: #cadace;
 }
 
@@ -94,7 +93,6 @@
   margin: 10px;
   border-radius: 20px;
   transition: width 0.3s ease, font-size 0.3s ease;
-  line-height: 2.5em;
   text-decoration: none;
 }
 
@@ -104,31 +102,42 @@
 }
 
 .Repair{
-  background-image: url('images/Aircon.webp');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('images/Aircon.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .Supply{
-  background-image: url('images/Compressor.webp');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('images/Compressor.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .Field-repair{
-  background-image: url('images/Excavator.webp');
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0)), url('images/Excavator.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .Images span {
-  background-color: rgba(0,0,0,0.6);
+  display: inline-block;
   font-size: 1.2em;
-  padding: 5px;
+  padding: 20px;
   border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .Images{
+    flex-direction: column;
+  }
+
+  .Repair, .Supply, .Field-repair{
+    height: 20vh;
+    width: 95%;
+  }
 }
 
 @media (max-width: 540px) {
@@ -161,6 +170,10 @@
   }
 
   .Contact-details{
+    font-size: 20px;
+  }
+
+  .Images span{
     font-size: 20px;
   }
 }
