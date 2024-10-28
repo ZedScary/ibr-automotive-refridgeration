@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ibr-renovators/static/css/main.d4908343.css",
-    "main.js": "/ibr-renovators/static/js/main.ea4b7886.js",
+    "main.js": "/ibr-renovators/static/js/main.f0213a6b.js",
     "static/js/453.56090391.chunk.js": "/ibr-renovators/static/js/453.56090391.chunk.js",
     "static/media/IMG-20241026-WA0006.jpg": "/ibr-renovators/static/media/IMG-20241026-WA0006.98e060058cd6a0b70068.jpg",
     "static/media/IMG-20241026-WA0007.jpg": "/ibr-renovators/static/media/IMG-20241026-WA0007.c88f90419679fb92f794.jpg",
@@ -12,11 +12,11 @@
     "static/media/MACS-Auto-web-compressors-600x299.jpg": "/ibr-renovators/static/media/MACS-Auto-web-compressors-600x299.57fe1c4cd34f3d95ba90.jpg",
     "index.html": "/ibr-renovators/index.html",
     "main.d4908343.css.map": "/ibr-renovators/static/css/main.d4908343.css.map",
-    "main.ea4b7886.js.map": "/ibr-renovators/static/js/main.ea4b7886.js.map",
+    "main.f0213a6b.js.map": "/ibr-renovators/static/js/main.f0213a6b.js.map",
     "453.56090391.chunk.js.map": "/ibr-renovators/static/js/453.56090391.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4908343.css",
-    "static/js/main.ea4b7886.js"
+    "static/js/main.f0213a6b.js"
   ]
 }
